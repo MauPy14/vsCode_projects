@@ -1,0 +1,27 @@
+@keyframes color-change {
+    0% {
+      color: blue;
+    }
+  
+    50% {
+      color: red;
+    }
+  
+    100% {
+      color: blue;
+    }
+}
+body {
+    font-family: 'Inter'; /* Familia de fuentes */
+    font-size: 32px; /* El tamaño de la fuente principal en el tag <p></p> */
+    background-color: #ffffff; /* El color del fondo de la página web */
+    color: #000000; /* El color del texto*/ 
+    animation: color-change 3s infinite;
+    
+}
+h1:hover {
+    color: #000000; /* El color de la cabecera */
+    font-size: 64px; /* El tamaño de la fuente de la cabecera */
+    font-family: Georgia, serif; /* La familia tipográfica utilizada en la cabecera */
+}
+
