@@ -256,4 +256,4 @@ async def inforole(ctx):
 
 
 
-token = 'MTI0MDEwMjUxNjMyNzMyMTYyMQ.G7zCw1.SiNrUYTmjTXO34IcBmtcvkFNsmO2sKGqg7gb3k'
+token = 'What ya looking for'
