@@ -14,8 +14,9 @@ def hello_web():
     y = '<div style="text-align: center;"><a href="/random_fact" style="font-size: 32px">¡Ver un dato aleatorio!</a><br>'
     z = '<a href="/random_number" style="font-size: 32px">¡Ver un número aleatorio!</a>'
     w = '<br><a href="/coin" style="font-size: 32px">¡Lanzar una moneda!</a>'
-    u = '<br><a href="/random_password/10" style="font-size: 32px">��Generar una contraseña!</a></div>'
-    return x + y + z + w + u
+    u = '<br><a href="/random_password/10" style="font-size: 32px">¡Generar una contraseña!</a>'
+    v = '<br><a href="/random_emoji" style="font-size: 32px">¡Emoji aleatorio!</a></div>'
+    return x + y + z + w + u + v
 
 @app.route("/random_fact")
 def random_fact():
