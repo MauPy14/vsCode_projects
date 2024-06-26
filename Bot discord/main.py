@@ -90,6 +90,10 @@ async def purgeerror(ctx, error):
         await ctx.send(error)
     else:
         raise error
+     
+@bot.command()
+async def inforole(ctx):
+    await ctx.send(ctx.author.guild_permissions)
 
 
 
